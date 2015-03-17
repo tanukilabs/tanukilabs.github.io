@@ -11,7 +11,7 @@ github_username: tanukilabs
 
 # Build settings
 markdown: kramdown
-highlighter: true
+highlighter: pygments
 permalink: pretty
 
 encoding: utf-8

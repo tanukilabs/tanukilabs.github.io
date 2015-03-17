@@ -4,6 +4,7 @@ title: "The site is online!"
 author: copykatt
 date: 2015-03-17 08:30
 categories: news
+comments: true
 ---
 
 Welcome to the new web presence of tanukilabs! The site will be filled with

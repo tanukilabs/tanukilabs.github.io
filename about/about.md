@@ -18,6 +18,6 @@ Who are we?
 
 * *Name:* Elhuron
 * *Role:* Audio Engineer, Artist
-* *Occupation:*
-* *Favorite games:*
-* *Tools of the trade:*
+* *Occupation: Army*
+* *Favorite games: Batman Arkham Series, GTA, Just Cause 2, lots of indies esp. limbo*
+* *Tools of the trade: Cubase, Ableton, The GIMP*

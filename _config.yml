@@ -5,13 +5,12 @@ description: >
     tanukilabs is a small independent indie game and mobile development studio
     located in Germany and Switzerland. It was founded in late 2012. On this page,
     we write about current projects and other subjects of interest.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tanukilabs.github.io/" # the base hostname & protocol for your site
+baseurl: ""
+url: "http://tanukilabs.github.io/"
 github_username: tanukilabs
+encoding: utf-8
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-
-encoding: utf-8

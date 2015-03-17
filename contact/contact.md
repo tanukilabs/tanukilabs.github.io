@@ -3,14 +3,30 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
 You have suggestions about improvements that could be made or just want to talk about something?
 Then contact us! We are always happy to receive constructive criticism.
 
-<form accept-charset="UTF-8" action="https://formkeep.com/f/51ea0eb22e95" method="POST">
-  <input type="hidden" name="utf8" value="✓">
-  <input type="email" name="email" placeholder="Your mail"><br>
-  <input type="text" name="name" placeholder="Your name"><br>
-  <input type="url" name="url" placeholder="Your website"><br>
-  <textarea name="comment" rows="5" cols="40" placeholder="Send us your comment"></textarea><br>
-  <button type="submit">Submit</button>
-</form>
+<div class="container-fluid">
+  <form role="form" action="//formspree.io/copykatt@yandex.com" method="post">
+    <div class="form-group">
+      <Label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr" placeholder="Enter your name here">
+    </div>
+    <div class="form-group">
+      <label for="email">Mail:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter your mail here">
+    </div>
+    <div class="form-group">
+      <label for="comment">Comment:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>

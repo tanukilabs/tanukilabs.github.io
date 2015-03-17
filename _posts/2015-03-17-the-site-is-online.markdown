@@ -14,7 +14,8 @@ which was, in fact, working great. The downside was (yeah, I was faster in creat
 the repo etc. than reading the docs) that it could not handle server-side scripts
 (PHP for the contact page), so I decided to finally create the tanukilabs
 organization on github and just use jekyll instead (which is also
-working great, apparently).
+working great, apparently). I'll probably get back to bootstrap for the contact page
+and status bars for the games.
 
 I'm looking forward to play around with jekyll in the next few days and upload some
 actual content.

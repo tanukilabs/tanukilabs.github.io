@@ -1,9 +1,9 @@
 # Site settings
 title: tanukilabs
 email: copykatt@yandex.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
     tanukilabs is a small independent indie game and mobile development studio
-    located in Germany and Switzerland and was founded in 2012. On this page,
+    located in Germany and Switzerland. It was founded in late 2012. On this page,
     we write about current projects and other subjects of interest.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://tanukilabs.github.io/" # the base hostname & protocol for your site

@@ -10,8 +10,6 @@ comments: false
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="/js/validator.js"></script>
-<script src="/js/jquery.min.js"></script>
-<script src="/js/bootstrap-maxlength.js"></script>
 
 
 You have suggestions about improvements that could be made or just want to talk about something?
@@ -48,12 +46,3 @@ Then contact us! We are always happy to receive constructive criticism.
     <!-- <input type="hidden" name="_next" value="//tanukilabs.github.io/thanks/" /> -->
   </form>
 </div>
-
-<script>
-$(document).ready(function(){
-
-$('textarea#inputComment').maxlength({
-    alwaysShow: true
-});
-
-</script>

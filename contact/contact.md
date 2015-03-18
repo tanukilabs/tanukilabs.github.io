@@ -9,7 +9,10 @@ comments: false
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="validator.js"></script>
+<script src="/js/validator.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap-maxlength.js"></script>
+
 
 You have suggestions about improvements that could be made or just want to talk about something?
 Then contact us! We are always happy to receive constructive criticism.
@@ -30,12 +33,12 @@ Then contact us! We are always happy to receive constructive criticism.
     </div>
     <div class="form-group has-feedback">
       <label for="inputEmail" class="control-label">Email</label>
-      <input type="email" class="form-control" name="_replyto" id="inputEmail" placeholder="Email" data-error="Please enter a valid email address." required>
+      <input type="email" class="form-control" name="_replyto" id="inputEmail" placeholder="Your email" data-error="Please enter a valid email address." required>
       <div class="help-block with-errors"></div>
     </div>
     <div class="form-group">
       <label for="inputComment">Comment:</label>
-      <textarea class="form-control" rows="5" name="comment" id="inputComment" placeholder="What you want to tell us." required></textarea>
+      <textarea class="form-control" rows="5" maxlength="1000" name="comment" id="inputComment" placeholder="What exactly you want to tell us." required></textarea>
     </div>
     <div class="form-group">
     <button type="submit" class="btn btn-primary">Submit</button>
@@ -45,3 +48,12 @@ Then contact us! We are always happy to receive constructive criticism.
     <!-- <input type="hidden" name="_next" value="//tanukilabs.github.io/thanks/" /> -->
   </form>
 </div>
+
+<script>
+$(document).ready(function(){
+
+$('textarea#inputComment').maxlength({
+    alwaysShow: true
+});
+
+</script>

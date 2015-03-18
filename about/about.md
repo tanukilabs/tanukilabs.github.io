@@ -15,6 +15,7 @@ Who are we?
 * *Occupation:* Computer Science student
 * *Favorite games:* Max Payne, Legacy of Kain Series, All the lego games
 * *Tools of the trade:* vim, atom, netbeans, unity, visualstudio
+* *On the web:* [github](https://github.com/copykatt), [bitbucket](http://bitucket.org/copykatt)
 
 * *Name:* Elhuron
 * *Role:* Audio Engineer, Artist

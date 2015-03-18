@@ -12,5 +12,5 @@ encoding: utf-8
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty

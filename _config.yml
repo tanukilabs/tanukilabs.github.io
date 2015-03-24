@@ -1,5 +1,6 @@
-# Site settings
+# Site information
 title: tanukilabs
+author: copykatt
 tagline: lelel
 email: copykatt@yandex.com
 description: >
@@ -8,8 +9,11 @@ description: >
     we write about current projects and other subjects of interest.
 baseurl: ""
 url: "http://tanukilabs.github.io/"
-github_username: tanukilabs
+
 encoding: utf-8
+
+# Personal information and site tools info:
+github_username: tanukilabs
 
 # Build settings
 markdown: kramdown
